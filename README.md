@@ -16,7 +16,7 @@ Serverless Lambda function for generating thumbnails from images uploaded to S3 
 - Configurable max thumbnail size
 
 ## Environment Variables
-- `MAX_DIMENSION`: Max thumbnail size (pixels)
+- `MAX_THUMBNAIL_SIZE`: Max thumbnail size (pixels)
 - `ORIGINAL_BUCKET`: Source S3 bucket path
 - `THUMBNAIL_BUCKET`: Destination S3 bucket path
 
